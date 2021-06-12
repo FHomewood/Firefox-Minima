@@ -1,4 +1,4 @@
-# Firefox-Minima
+# Firefox Minima
 
 Firefox Minima is a userChrome profile for Firefox that reduces the amount of clutter and screenspace that comes with a modern browser, instead opting for heavy use of /vimium/ commands to navigate. As a result of this Minima has a very low profile, keyboard first style interface which uses the mouse only when it has to
 
@@ -22,5 +22,9 @@ In order to make this minimalist browser more functional, a number of recommende
 This theme uses only a couple customisations to the standard Vimium-FF setup, install this extension then use <Ctrl-Shift-A> to go to the addon page where you can open the Vimium-FF options
 
 > - Click 'Show Advanced Options' at the bottom of the window
-> - Scroll to the bottom of the config menu and use the 'Backup and Restore' settings to import settings from the file vimium-minima.json in this repo
+> - Scroll to the bottom of the config menu and use the 'Backup and Restore' settings
+> - Import settings from the file vimium-minima.json in this repo
 
+## Credit and Acknowledgements
+
+The Vimium theme used in the json file is largely from [this](https://github.com/ysjn/vimium-simply-dark) repository
