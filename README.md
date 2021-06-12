@@ -8,8 +8,8 @@ Firefox Minima is a userChrome profile for Firefox that reduces the amount of cl
 
 Firstly from a fresh install of firefox you will need to prepare your browser for userChrome custom stylesheets
 > Go to about:config in firefox and change the following settings:
->> toolkit.legacyUserProfileCustomizations.stylesheets = true
->> browser.proton.enabled = false
+> - toolkit.legacyUserProfileCustomizations.stylesheets = true
+> - browser.proton.enabled = false
 
 Then find the your profile directory in about:support.
 Move the userChrome.css file from this repository to <profile-directory>/chrome/userChrome.css
@@ -21,6 +21,6 @@ In order to make this minimalist browser more functional, a number of recommende
 
 This theme uses only a couple customisations to the standard Vimium-FF setup, install this extension then use <Ctrl-Shift-A> to go to the addon page where you can open the Vimium-FF options
 
-> Click 'Show Advanced Options' at the bottom of the window
-> scroll to the bottom of the config menu and use the 'Backup and Restore' settings to import settings from the file vimium-minima.json in this repo
+> - Click 'Show Advanced Options' at the bottom of the window
+> - Scroll to the bottom of the config menu and use the 'Backup and Restore' settings to import settings from the file vimium-minima.json in this repo
 
